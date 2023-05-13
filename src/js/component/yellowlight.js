@@ -12,7 +12,9 @@ const Yellowlight = () => {
       newValue = true;
     }
     setLight(newValue);
-  }
+ 
+  window.location.reload(); // recarga la pagina cuando cambia el estado del boton
+}
 
 
   return (

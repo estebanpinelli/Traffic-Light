@@ -11,9 +11,9 @@ const RedLight = () => {
     } else {
       newValue = true;
     }
-    setLight(newValue);
+        setLight(newValue);
+    window.location.reload(); // recarga la pagina cuando cambia el estado del boton
   }
-
 
   return (
 
