@@ -9,8 +9,8 @@ const Home = () => {
 	return (
 
 	      <div className="container-fluid text-center">
-      <div className="row justify-content-center">
-        <div className="col-1 bg-dark m-5 p-2 rounded">
+      	<div className="row justify-content-center">
+        <div className="col-2 bg-dark m-5 p-2 rounded">
 		<Redlight/>
 		<Yellowlight/>
 		<Greenlight/>
